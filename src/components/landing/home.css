@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+/**********************/
+a{
+    text-decoration: none !important;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+/********** HEADER TOP **********/
+
+.header_top .navbar-brand img{
+    padding-left: 100px;
+    width: 250px;
+}
+.header_top .navbar-collapse{
+    
+    justify-content: space-around !important;
+}
+.header_top .navbar-collapse ul{
+    background: rgb(240, 240, 240);
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+.header_top .navbar-collapse ul li{
+    padding: 0px 5px;
+}
+
+.header_top .navbar .dropdown-menu {
+    background: #ffffff;
+    display: none;
+    position: absolute;
+    border: 1px solid #c2c2c2;
+  }
+  
+  .header_top .navbar .dropdown:hover .dropdown-menu {
+      padding: 10px 0px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  .header_top .navbar .dropdown-menu .dropdown-item{
+      font-size: 15px;
+      background-color: transparent;
+      padding: 5px 10px;
+      margin: 5px 0px;
+  }
+  .header_top .navbar .dropdown-menu .dropdown-item:hover{
+    background: #FF284F;
+  }
+.header_top .navbar-collapse ul li a{
+    color: #3f3f3f;
+    padding: 3px 20px !important;
+    border-radius: 7px;
+    transition: .5s;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header_top .navbar-collapse ul li a:hover{
+    background: #FF284F;
+    color: #fff;
+}
+.header_top .navbar-collapse .icon{
+    padding-right: 10px;
+    font-size: 25px;
+}
+.header_top .navbar-collapse .log_btn{
+    background: #393939;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #393939;
+    font-size: 15px;
+    transition: .5s;
+    line-height: 24px;
+    text-decoration: none;
+
+}
+
+.header_top .navbar-collapse .log_btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+/*************** HEADER *******************/
+#header .headr_bg{
+    background: #F6F6F6;
+    padding: 50px 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#header .head_title{
+    padding: 0px 20px;
+}
+#header .head_title h1{
+    font-size: 45px;
+    line-height: 54px;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+#header .head_title p{
+    color: #3f3f3f;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: start;
+    margin: 25px 0px;
+}
+
+#header .head_cate{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#header .head_cate .item{
+    background: #fff;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+#header .head_cate .item:hover{
+    background: #3F3F3F;
+}
+#header .head_cate .item:hover .item_text p{
+    color: #fff;
+}
+#header .head_cate .item .item_text p{
+    text-align: center;
+    font-size: 15px;
+    color: #3f3f3f;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#header .head_cate img{
+    width: 90px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#header .right_img img{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/************* CLASS COURCE *****************/
+#class_course{
+    margin: 80px 0px;
+}
+#class_course .course_items{
+    border-radius: 15px;
+    padding: 25px 10px;
+    background-color: #F7F8FA;
+}
+#class_course h2{
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #3f3f3f;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+#class_course .course_img img{
+    width: 100%;
+    height: 185px;
+    border-radius: 5px;
+}
+#class_course .course_item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#class_course .course_item p{
+    color: #383838;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background: #fff;
+    padding: 5px 10px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 20px;
+}
+#class_course .course_item .class_icon{
+    color: #45C881;
+    font-size: 22px;
+    margin: 0px 10px 0px 0px;
+}
+#class_course .course_item .item_two{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#class_course .course_link{
+    margin: 20px 0px;
+}
+#class_course .course_link_btn{
+    background: #3BC57A;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+#class_course .course_link_btn:hover{
+    background: #34a868;
+}
+
+/****************career ***************/
+
+
+#career{
+    margin: 40px 0px 0px 0px;
+    padding: 50px 0px 80px 0px;
+    background: #FAFAFA;
+}
+
+#career h1{
+    font-size: 30px;
+    line-height: 36px;
+    color: #3f3f3f;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.slider .slick-prev:before, .slider .slick-next:before {
+    font-size: 35px !important;
+     color: rgb(68, 68, 68) !important; 
+ }
+.slider .slick-prev {
+    left: 45% !important;
+}
+.slider .slick-next {
+    right: 45% !important;
+}
+.slider .slick-prev, .slick-next {
+    margin-top: 20px !important;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 110% !important;
+    display: block;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slider .card{
+    margin: 5px !important;
+    padding: 10px;
+    width: 265px !important;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: .5s;
+}
+.slider .card:hover{
+    transform: translateY(5px);
+}
+.slider .card img{
+    border-radius: 10px;
+}
+.slider .card .card-body{
+    padding: 15px 0px !important;
+}
+.slider .card h5{
+    text-align: start;
+    color: #393939;
+    font-size: 16px;
+    font-weight: 600;
+}
+.slider .card p{
+    text-align: start;
+    color: #393939;
+    font-size: 14px;
+}
+
+/************LEARN **************/
+
+#learn{
+    background: #F7F8FA;
+}
+#learn .item{
+    margin: 50px 0px;
+}
+#learn .item .top{
+    width: 60%;
+    margin: 0 auto;
+}
+#learn h1{
+    font-size: 30px;
+    line-height: 36px;
+    color: #3f3f3f;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#learn .top p{
+    color: #555555;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+#learn .top .top_btn{
+    text-align: center;
+    color: #fff;
+    background: #FF284F;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .5s;
+}
+#learn .top .top_btn:hover{
+    border: 1px solid #FF284F;
+    background: #fff;
+    color: #FF284F;
+}
+#learn .top .top_btn .btn_icon{
+    vertical-align: text-bottom !important;
+    font-size: 20px;
+}
+#learn .middle{
+    margin: 40px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#learn .middle .same_item{
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 30px;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+}
+#learn .middle .same_item img{
+    width: 70px;
+}
+#learn .middle .same_item .right{
+    padding-left: 15px;
+}
+#learn .middle .same_item h4{
+    font-size: 22px;
+    line-height: 27px;
+    color: #3f3f3f;
+    font-weight: 600;
+}
+#learn .middle .same_item p{
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3f3f3f;
+}
+
+
+
+/************ Privacy ************/
+.privacy{
+    background: #eeeeee;
+    padding: 30px 0px;
+}
+.privacy h2{
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 700;
+}
+.privacy li{
+    font-weight: 500;
+    font-size: 17px;
+}
+.privacy p{
+    font-size: 16px;
+    text-align: justify;
+    color: #3f3f3f;
+    font-weight: normal;
+}

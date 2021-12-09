@@ -1,0 +1,165 @@
+
+#skill{
+    background: #f3f3f3;
+    padding: 30px 0px;
+}
+#skill .skill_heading h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #3f3f3f;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+ .skill_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ .skill_item{
+    margin: 7px 7px 15px 7px;
+    background: #fff;
+    padding: 13px;
+    border-radius: 10px;
+    width: 265px;
+    transition: .5s;
+    display: inline-block;
+}
+ .skill_item:hover{
+    -webkit-box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32); 
+    box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32);
+}
+ .skill_item img{
+    width: 232px;
+    border-radius: 10px;
+}
+ .skill_item .skill_title h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 12px;
+    color: #303030;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+ .skill_item .skill_price_time{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.skill_item .skill_price_time h5{
+    color: #45C885;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
+}
+ .skill_item .skill_price_time small{
+    background: #f7dbdf;
+    color: crimson;
+    font-size: 12px;
+    padding: 3px 5px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+/************ Skill Slider ****************/
+.slider_title h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #303030;
+}
+.skill_slider{
+   width: 100%;
+   height: 100%;
+   margin-top: 50px;
+}
+.skill_sli_item{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 20px;
+    
+}
+.skill_sli_item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.skill_sli_item .top_img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.skill_sli_item h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    margin-bottom: 3px;
+}
+.skill_sli_item small{
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 3px;
+}
+
+.skill_sli_item .skill_slid_text p{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.skill_slider .slick-prev:before, .skill_slider .slick-next:before {
+    font-size: 35px !important;
+     color: rgb(68, 68, 68) !important; 
+ }
+ .skill_slider .slick-prev {
+    left: 40% !important;
+}
+.skill_slider .slick-next {
+    right: 40% !important;
+}
+.skill_slider .slick-prev, .skill_slider .slick-next {
+    margin-top: 5px !important;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 110% !important;
+    display: block;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.question{
+    margin-top: 80px;
+}
+.question h4{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #303030;
+}

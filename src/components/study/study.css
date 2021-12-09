@@ -1,0 +1,171 @@
+
+
+#study{
+   background: #ebebeb;
+   padding: 40px 0px;
+}
+#study p{
+    margin-bottom: 0px !important;
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+    margin-right: 20px;
+}
+.study_top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#study .study_top .study_left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F4F4F4;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+#study .study_top .study_left ul li .study_left_link{
+   padding: 5px 20px;
+   font-size: 16px;
+   font-weight: 500;
+   color: #000;
+   border-radius: 20px;
+   transition: .5s;
+   margin: 0px 5px;
+}
+#study .study_top .study_left ul li .study_left_link:hover{
+    background: #FF284F;
+    color: #fff;
+}
+#study .study_top .study_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#study .study_top .study_right .drop_btn{
+    border: none;
+    background: #FF284F;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+#study .study_top .study_right .dropdown-menu {
+    background: #ffffff;
+    display: none;
+    position: absolute;
+    border: 1px solid #c2c2c2;
+    overflow-y: scroll;
+    height: 350px;
+  }
+  
+  #study .study_top .study_right .dropdown:hover .dropdown-menu {
+      padding: 10px 0px;
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  #study .study_top .study_right .dropdown-menu .class_drop_btn{
+      font-size: 14px;
+      font-weight: 600;
+  }
+  #study .study_top .study_right .dropdown-menu img{
+      width: 30px;
+      margin: 3px 10px 3px 0px;
+  }
+/**************STUDY CARD***********/
+#study .study_card{
+    padding-top: 30px;
+}
+#study .study_card .card_parent .card_title{
+    margin-bottom: 10px;
+}
+#study .study_card h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(46, 46, 46);
+    line-height: 27px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#study .study_card .card_parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+#study .study_card .card_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    padding: 10px 10px;
+    width: 258px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: .6s;
+}
+#study .study_card .card_items:hover{
+    -webkit-box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32); 
+    box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32);
+}
+#study .study_card .card_items img{
+    width: 50px;
+}
+#study .study_card .card_items h6{
+    color: #000;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-left: 7px;
+    margin-bottom: 0px !important;
+}
+
+
+/************ Study Video ***************/
+.study_video{
+    background: #EBEBEB;
+    padding: 20px 0px;
+    height: 100vh;
+}
+.s_video iframe{
+    border-radius: 15px;
+}
+.s_title_list{
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.s_title_list ul{
+    height: 550px;
+    overflow-y: scroll;
+    background: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+}
+.s_title_list ul li{
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.s_title_list ul li .s_link{
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}

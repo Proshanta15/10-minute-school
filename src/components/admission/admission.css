@@ -1,0 +1,78 @@
+.admission .addmis_title h2{
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.admission .add_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.admission .add_main .add_items {
+    margin: 7px 7px 20px 7px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    transition: .4s;
+    width: 209px;
+}
+.admission .add_main .add_items:hover{
+    -webkit-box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32); 
+    box-shadow: 2px 2px 9px 4px rgba(145,145,145,0.32);
+}
+.admission .add_main .add_items img{
+    width: 100%;
+    height: 125px;
+}
+.admission .add_main .add_items h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+    margin-top: 15px;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    padding: 5px 0px 0px 0px;
+}
+
+
+/*******************  Admission Course Details **********************/
+
+.addmisson_contect p{
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 15px;
+    background: #fff;
+    margin: 7px;
+    border-radius: 20px;
+}
+.addmisson_contect .details_icon{
+    color: #3BC57A;
+    margin-right: 7px;
+}
+.addmi_versity p{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0px 10px;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    background: rgb(221, 221, 221);
+}
+.addm_accor{
+    margin-top: 40px;
+}
+.addm_accor h4{
+    color: rgb(75, 75, 75);
+    font-size: 22px;
+    font-weight: 600;
+    
+}
